@@ -8,8 +8,15 @@ var findReplace = function(input) {
       words[counter] = replacingWord;
     }
   }
-  console.log(words);
-  console.log(words.join());
+
+  // console.log(words);
+  // console.log(words.join(" "));
+  console.log(input[0]);
+  console.log(input[1]);
+  console.log(input[2]);
+  console.log(input[3]);
+  console.log(input[4]);
+
   return words.join(" ");
 }
 
